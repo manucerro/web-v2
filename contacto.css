@@ -1,0 +1,141 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4b715e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos del formulario de contacto */
+#formulario-contacto {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#formulario-contacto h2 {
+    text-align: center;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario-contacto label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#formulario-contacto input,
+#formulario-contacto textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#formulario-contacto button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#formulario-contacto button:hover {
+    background-color: #3f5b46;
+}
+
+#formulario-contacto h2::after {
+    content: " ✉️";
+    color: #fff;
+}
+
+#formulario-contacto button:active {
+    transform: scale(0.95);
+    background-color: #1e8449;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #4b715e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #3f5b46;
+}
+
+/* Estilos del menú de navegación */
+nav {
+    background-color: #543434;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li select {
+    padding: 5px;
+    border: none;
+    background-color: #ecf0f1;
+}
+
+nav ul li a:hover {
+    color: #3f5b46; /* Cambia el color al pasar el cursor */
+}
+
+nav ul li:nth-child(1) a {
+    font-weight: bold; /* Destaca el tercer elemento del menú */
+}
